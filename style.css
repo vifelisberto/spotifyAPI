@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Chicle');
+
+body {
+    background-color: #131313;
+    font-family: 'Chicle', cursive;
+    color: aliceblue;
+}
+h2 {
+    color: #29c437;
+    text-align: center;
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div {
+    max-height: 25px;
+    opacity: 0.8;
+    width: 16%;
+    transition: 2s;
+}
+
+div.normal {
+    max-height: 225px;
+    /* -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1); */
+}
