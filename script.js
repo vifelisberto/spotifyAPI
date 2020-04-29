@@ -5,7 +5,7 @@ fetch('https://api.spotify.com/v1/users/22cnleideojl5tnn4qep27zzq/playlists/0sZk
 method: 'GET',
 headers: new Headers({
     'Accept': 'application/json',
-    'Authorization': 'Bearer BQC1aclbSFh3C9LuOqoxNtvSGx0hPnrM0BNptuB3B0APdx-mct56HHB7_IAyMLOJr4D_bkt9STFRleOn2jb24py0X9jYozhtyYdJgR9LSFIPV9vj5_uK8EAU7h8XWnYIsw_ejo_Js2fO_IiLKsFX0v3fpQg7iSBPjFBjI0-x3oa50QuuNK4tOdcqdsER8a3G59UkQKIl3k1U1_BYf-Gi4UKbMtjFtsOAfnuq-VPbobQEATl72BLlZ7EPlZaqSRM6GftH2UT6PZxOJCuYA282CtsHm7tzErs',
+    'Authorization': 'Bearer BQBbARzkhPHRgGr6qqq8Qz2J8zFCOhf4oY7balIvydRBx4-YqyWBo1ic5DpmFl-onC0ZBv6a7gzWRi78BVIKIdFBtPndj45xgUuluuiHekWazX4zLfViebEEDSAL0tKXmFkMGjY_sp5xpj0cQVpyHolhfCDW55QeDrbmopWlyn_xsWdABRAJvcTSKtDG_EdEY-SkY9vg96Rt_iSiUhu68pmN2IUQulQcInw8ZndG_ExheIUoZr93qp0EvcNurz7PU8f6627QEWl-agMbWjW5TO7NqPKk1Hj-bl8v',
 })
 })
 .then(function(resposta){
